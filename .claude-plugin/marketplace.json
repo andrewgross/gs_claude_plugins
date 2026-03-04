@@ -1,0 +1,19 @@
+{
+  "name": "gs-claude-plugins",
+  "owner": {
+    "name": "Andrew Gross"
+  },
+  "metadata": {
+    "description": "Personal collection of Claude Code plugins",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "terminal-notifier",
+      "source": "./plugins/terminal-notifier",
+      "description": "Native macOS notifications when Claude finishes responding",
+      "version": "1.0.0",
+      "keywords": ["macos", "notifications", "hooks"]
+    }
+  ]
+}
