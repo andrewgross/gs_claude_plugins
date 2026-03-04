@@ -7,7 +7,7 @@ Personal collection of Claude Code plugins.
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add /path/to/gs_claude_plugins
+/plugin marketplace add git@github.com:andrewgross/gs_claude_plugins.git
 ```
 
 Then install any plugin:
